@@ -57,7 +57,8 @@ Will work at hedge fund in risk, technology, and research divisions
 
 Worked at construction management firm, conducted cost analysis and project management
 
-## Slogans for Charity, Founder
+## Slogans for Charity
+### Founder
 *2015 to 2017*
 
 Created business that pitched slogans in return for a donation to charity
