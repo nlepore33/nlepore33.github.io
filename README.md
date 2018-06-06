@@ -26,11 +26,13 @@ An introduction to Business, Economics, and Finance
 
 ## Harvard Student Agencies (HSA), Strategy Division
 ### Analyst
-*2017 to Present* 
+*2017 to Present*
+
 Consulting group for HSA, made recommendations based on data to the agencies to generate revenue
 
 ## Harvard Financial Analysts Club, Investment Research
 *2017 to Present*
+
 Pitched stocks and voted on investments for the club, learned basic accounting and financial analysis
 
 ## Harvard Sailing Club, Founder, President
@@ -43,19 +45,23 @@ Founded and grew sailing club for beginners or casual sailors, managed grants an
 
 ## Indus Capital Partners, Intern
 *Summer 2018*
+
 Will work at hedge fund in risk, technology, and research divisions
 
 ## Gardiner and Theobald, Intern
-*Summer 2017* 
+*Summer 2017*
+
 Worked at construction management firm, conducted cost analysis and project management
 
 ## Slogans for Charity, Founder
 *2015 to 2017*
+
 Created business that pitched slogans in return for a donation to charity
 Raised over a thousand dollars for local and national charities
 
 ## MakerState, Maker Fellow, Curriculum Writer
 *Summer 2016*
+
 Taught children STEM foundational courses, given permanent curriculum writing position
 
 # Skills
