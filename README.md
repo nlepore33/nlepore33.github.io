@@ -3,17 +3,23 @@
 ### Bachelor of Arts, Applied Mathematics with Economics Concentration, Computer Science Secondary
 #### GPA: 3.84
 
-Relevant Coursework: Principles of Economics, Intro to Computer Science, Multivariable Calculus
+**Relevant Coursework:** Principles of Economics, Intro to Computer Science, Multivariable Calculus
 
 ## Rye High School, Class of 2017
 #### GPA: 101.06
+
 Honors: Princeton Book Award, National Honor Society Candle of Scholarship, National Merit Commended
 SAT: 2360 combined, 2310 single score
 
-## Johns Hopkins University Engineering Innovation Summer 2016
-● Condensed freshman engineering course, received an A and JHU engineering college credit
+## Johns Hopkins University Engineering Innovation
+*Summer 2016*
 
-## Columbia University High School Summer Program Summer 2015 ● Introduction to Business, Economics, and Finance
+Condensed freshman engineering course, received an A and JHU engineering college credit
+
+## Columbia University High School Summer Program 
+*Summer 2015* 
+
+An introduction to Business, Economics, and Finance
 
 
 # Leadership and Activities
