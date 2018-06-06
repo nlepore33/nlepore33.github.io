@@ -1,2 +1,9 @@
 theme: jekyll-theme-minimal
-title: Nicolas Lepore
+name: Nicolas Lepore
+title: Nicolas Lepor
+
+footer-links:
+  email: nlepore33@gmail.com
+  github: nlepore33
+  linkedin: nicolas-lepore-768153150
+  facebook: nicolas.lepore.39
