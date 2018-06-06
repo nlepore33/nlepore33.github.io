@@ -1,9 +1,10 @@
 theme: jekyll-theme-minimal
 name: Nicolas Lepore
-title: Nicolas Lepor
+title: Nicolas Lepore
+description: Resume
 
 footer-links:
   email: nlepore33@gmail.com
-  github: nlepore33
+  github: nlepore33/nlepore33.github.io
   linkedin: nicolas-lepore-768153150
   facebook: nicolas.lepore.39
