@@ -1,8 +1,12 @@
 # Education
-## Harvard University, GPA: 3.84 Class of 2021
-Bachelor of Arts, Applied Mathematics with Economics Concentration, Computer Science Secondary
+## Harvard College, Class of 2021
+### Bachelor of Arts, Applied Mathematics with Economics Concentration, Computer Science Secondary
+#### GPA: 3.84
+
 ● Relevant Coursework: Principles of Economics, Intro to Computer Science, Multivariable Calculus
-Rye High School, GPA: 101.06 Class of 2017
+
+## Rye High School, Class of 2017
+#### GPA: 101.06
 ● Princeton Book Award, National Honor Society Candle of Scholarship, National Merit Commended
 ● SAT: 2360 combined, 2310 single score
 Johns Hopkins University Engineering Innovation Summer 2016
@@ -12,9 +16,10 @@ Columbia University High School Summer Program Summer 2015 ● Introduction to B
 
 # Leadership and Activities
 
-Harvard Student Agencies (HSA), Strategy, Analyst 2017 to Present ● Consulting group for HSA, made recommendations based on data to the agencies to generate revenue
-Harvard Financial Analysts Club, Investment Research 2017 to Present ● Pitched stocks and voted on investments for the club, learned basic accounting and financial analysis
-Harvard Sailing Club, Founder, President 2017 to Present ● Founded and grew sailing club for beginners or casual sailors, managed grants and outings
+## Harvard Student Agencies (HSA), Strategy Division
+Analyst 2017 to Present ● Consulting group for HSA, made recommendations based on data to the agencies to generate revenue
+## Harvard Financial Analysts Club, Investment Research 2017 to Present ● Pitched stocks and voted on investments for the club, learned basic accounting and financial analysis
+## Harvard Sailing Club, Founder, President 2017 to Present ● Founded and grew sailing club for beginners or casual sailors, managed grants and outings
 
 
 # Work Experience
