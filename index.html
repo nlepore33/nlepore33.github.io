@@ -1,30 +1,396 @@
+
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Nicolas Lepore</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Nicolas Lepore!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nicolas Lepore</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<div class="jumbotron" id="lead">
+    <div class="pic-and-social">
+        <img class="profilePic" src="assets/img/me.gif"/>
+        <table>
+            <tr>
+                <td class="social">
+                    <a href="mailto:nlepore33@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
+                </td>
+                <td class="social">
+                    <a href="https://github.com/nlepore33"><i class="fa fa-github fa-3x"></i></a>
+                </td>
+                <td class="social">
+                    <a href="https://www.linkedin.com/in/nicolas-lepore-768153150/"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="description">
+        <div class="title">
+            <h1>Nicolas Lepore</h1>
+        </div>
+        <div>
+            Senior at Harvard studying Computer Science. I'm writing a thesis with <a href="https://people.seas.harvard.edu/~chong/">Prof. Stephen Chong</a> on a capability-based interface for controlling access to SQL databases. I am also a Head Teaching Fellow for CS51, <a href="http://www.thecrimson.com/article/2017/2/1/ec-10b-largest-course-2017/"> one of the largest courses</a> at Harvard.<br>In 2018, I will be joining <a href="https://www.palantir.com/">Palantir</a> full-time as a software engineer.
+        </div>
+    </div>
+</div>  <div class="education">
+    <h1>Education</h1>
+    <hr>
+    <div>
+        <div class="education-section">
+            <div class="education-title">
+                <h3>Harvard College</h3>
+                <img src="assets/img/harvard.png"/>
+            </div>
+            <div class="education-description">
+                <h4>A.B. in Computer Science, Secondary Field in Linguistic Theory</h4>
+                <span class="date"> Expected 2018 </span>
+                <h5>Honors:</h5> Phi Beta Kappa Junior 24, Detur Prize, Bok Center Certificate of Distinction in Teaching, John Harvard Scholar (2015, 2016, 2017)
+                <h5>Relevant Coursework:</h5>
+                Programming Languages, Advanced Topics in Programming Languages, Compilers, Operating Systems, Systems Security, Verified Systems, Data Systems, Data Structures and Algorithms, Theory of Computation, Computer Graphics, Linear Algebra and Real Analysis, Intro Probability, Probabilistic Understanding of Language, Formal Semantics.
+            </div>
+        </div>
+        <div class="education-section">
+            <div class="education-title">
+                <h3>Skills</h3>
+            </div>
+            <div class="education-description">
+                <span class="skill-h">Proficient in:</span> C, Java, OCaml, Git, Basic UNIX
+                <br>
+                <span class="skill-h">Experience in:</span> Python, TypeScript/JavaScript, C++, Racket, Objective-C, HTML/CSS
+            </div>
+        </div>
+    </div>
+</div>  <div class="teaching">
+    <h1>Teaching</h1>
+    <hr>
+    <div class="teaching-container">
+        <div class="teaching-item">
+            <div class="teaching-icon">
+                <img class="teaching-icon" src="assets/img/ocaml.png"/>
+            </div>
+            <div class="teaching-description">
+                <h4>CS51: Abstraction and Design</h4>
+                <i>Teaching Fellow – 2016 - Present (Head Teaching Fellow, 2017)</i>
+                <ul>
+                    <li>Designed system for automatically grading correctness of assignments.</li>
+                    <li>Contributed to problem set development and course planning.</li>
+                    <li>Led code review section for 16 students, graded problem sets.</li>
+                    <li>Held office hours and fielded questions via email and Piazza.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="teaching-item">
+            <div class="teaching-icon">
+                <img class="teaching-icon" src="assets/img/cs50.png"/>
+            </div>
+            <div class="teaching-description">
+                <h4>CS50: Introduction to Computer Science</h4>
+                <i>Teaching Fellow – Fall 2015</i>
+                <ul>
+                    <li>Led a weekly section for 20 students and graded problem sets.</li>
+                    <li>Held office hours and answered questions via email and the course discussion site.</li>
+                    <li>Advised groups of students working on final projects.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+  <div style="background: #EEEEEE">
+<div class="experience">
+    <h1>Experience</h1>
+    <hr>
+    <ul class="timeline timeline-centered">
+        <li class="timeline-item">
+            <div class="timeline-info">
+                <img class="teaching-icon" src="assets/img/harvard.png"
+                    width="48px"
+                    height="56px"/>
+            </div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h4 class="timeline-title">Stephen Chong Research Group, Harvard University</h4>
+                <i class="timeline-subtitle">Undergraduate Researcher - 2016 - Present</i>
+                <ul>
+                    <li>Worked on <a href="http://shill.seas.harvard.edu/">Shill</a>, a secure shell scripting language.</li>
+                    <li>Designed a capability-based API for accessing SQL databases in Shill.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <div class="timeline-info">
+                <img class="teaching-icon" src="assets/img/palantir.png"
+                    width="48px"
+                    height="48px"/>
+            </div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h4 class="timeline-title">Palantir Technologies, Inc.</h4>
+                <i class="timeline-subtitle">Software Engineer Intern - Summer 2017</i>
+                <ul>
+                    <li>Improved performance of data export between Palantir deployments.</li>
+                    <li>Designed a GUI for specifying data integrations without writing code.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <div class="timeline-info">
+                <img class="teaching-icon" src="assets/img/google.png"
+                    width="48px"
+                    height="48px"/>
+            </div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h4 class="timeline-title">Google, Inc.</h4>
+                <i class="timeline-subtitle">Software Engineering Intern, Gmail Spam Team - Summer 2016</i>
+                <ul>
+                    <li>Improved spam classification throughput by 20% by batching together inference requests.</li>
+                    <li>Integrated spam deep neural network with automated hyperparameter search infrastructure. Used results to decrease training time by 4x.</li>
+                    <li>Designed and implemented a data-processing pipeline for finding features causing false positives.</li>
+                    <li>Collaborated with industry machine learning experts to design a new objective function for the spam model and experiment with serving the model on <a href="https://cloudplatform.googleblog.com/2016/05/Google-supercharges-machine-learning-tasks-with-custom-chip.html">Tensor processing units</a>.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <div class="timeline-info">
+                <img class="teaching-icon" src="assets/img/harvard.png"
+                    width="48px"
+                    height="56px"/>
+            </div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h4 class="timeline-title">Barbara Grosz Research Group, Harvard University</h4>
+                <i class="timeline-subtitle">Undergraduate Research Assistant - 2015 - 2016</i>
+ <p>Contributed to the group's research on developing intelligent information sharing algorithms for supporting distributed teamwork.</p>                 <ul>
+                    <li>Developed a Google Chrome extension and a Google Docs add-on for supporting collaborative editing of documents.</li>
+                    <li>Built a back-end using Flask to connect the Docs add-on to the group's algorithms and store revision information.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <div class="timeline-info">
+                <img class="teaching-icon" src="assets/img/hyland.jpg"
+                    width="100px"
+                    height="37px"/>
+            </div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h4 class="timeline-title">Hyland, Creator of OnBase</h4>
+                <i class="timeline-subtitle">Software Development Intern - Summer 2015</i>
+ <p>Hyland creates enterprise content management software to help businesses manage documents, information, and everyday tasks. I worked on the image upload functionality of OnBase for iPad.</p>                 <ul>
+                    <li>Implemented <a href="https://en.wikipedia.org/wiki/Canny_edge_detector">Canny edge detection</a> in Objective-C to identify document borders in images.</li>
+                    <li>Used OpenGL ES to allow users to crop, de-skew, and adjust contrast/brightness levels of captured images.</li>
+                    <li>Integrated mobile app with server-side optical character recognition (OCR) engine so mobile users could upload documents for text recognition.</li>
+                    <li>Integrated app with client-side OCR using <a href="https://code.google.com/p/tesseract-ocr/">Tesseract</a> to compare the experience with server-side OCR.</li>
+                </ul>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <div class="timeline-info">
+                <img class="teaching-icon" src="assets/img/harvard.png"
+                    width="48px"
+                    height="56px"/>
+            </div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h4 class="timeline-title">Digital Atlas of Roman and Medieval Civilization (DARMC)</h4>
+                <i class="timeline-subtitle">Undergraduate Research Assistant - 2015</i>
+ <p>DARMC is a digital humanities project at Harvard that publishes freely available maps and geodatabases created from historical data on Roman and medieval civilization. A common task in the project was manually looking up and filling in coordinates for large CSV files of historical place names. I improved on an existing effort to automate this process.</p>                 <ul>
+                    <li>Designed a relational data model to replace the existing flat caching system and migrated old caches to the new model.</li>
+                    <li>Refactored existing Python scripts to make it easier to integrate more web geocoding services and output formats.</li>
+                    <li>Made configuring and using the command line interface easier for non-technical project members.</li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>  </div>
+
+<div class="projects">
+    <h1>Projects</h1>
+    <hr>
+    <div class="project-item">
+        <div class="project-info">
+            <div class="project-icon">
+                    <img src="assets/img/reaper.png"
+                        width="90px"
+                        height="95px"/>
+            </div>
+            <div class="project-content">
+                <h3>Reaper: Synthesizing SQL Data Modification Queries from Input-Output Examples </h3>
+                <ul class="list-inline">
+                    <li><h4><a href="https://ezig.github.io/reaper.pdf">Read the Paper</a></h4></li>
+                    <li><h4><a href="https://github.com/ezig/reaper">GitHub</a></h4></li>
+                </ul>
+                <p>A final project for Advanced Topics in Programming Languages at Harvard.</p><p>Users of relational databases often have trouble constructing SQL queries to perform their desired tasks. However, users are often able to provide input-output examples that provide a partial specification for their desired outcome. Accordingly, prior work has developed programming-by-example systems to help users craft database SELECT queries. A natural and useful extension of this technique is to automatically synthesize queries that modify data (that is, UPDATE and DELETE queries), as even users who are proficient in writing SELECT queries may struggle to write these modification queries.</p><p>In this paper, we present the first system for synthesizing SQL data modification queries from input-output examples. Our key insight is that it is possible to solve SQL data modification query synthesis problems by issuing multiple, independent calls to an existing SELECT synthesizer, which we can treat as a black box. This results in a simple synthesis algorithm that will benefit from future advances in SELECT synthesis technology. We have implemented our algorithm in a new tool called REAPER which can solve a variety of interesting update problems in a few seconds.</p>
+            </div> 
+        </div>
+        <div class="project-images">
+        </div>
+    </div>
+    <div class="project-item">
+        <div class="project-info">
+            <div class="project-icon">
+                    <img src="assets/img/coq.jpg"
+                        width="64px"
+                        height="64px"/>
+            </div>
+            <div class="project-content">
+                <h3>Verifying Security of Enclave-Aware Calculi </h3>
+                <ul class="list-inline">
+                    <li><h4><a href="https://ezig.github.io/BTZ.pdf">Read the Paper</a></h4></li>
+                    <li><h4><a href="https://github.com/aaronbembenek/verified-auto-enclave">GitHub</a></h4></li>
+                </ul>
+                <p>A final project for Projects and Close Readings in Software Systems: Verified Systems at Harvard.</p>Techniques from language-based security, such as security type systems, often provide protection against high-level adversaries but cannot guarantee security against low-level attackers, such as those that can inject code or inspect memory.</p><p>We model in <a href="https://coq.inria.fr/">Coq</a> a security-typed calculus that includes an abstract model of Intel SGX-like enclaves, and show that the calculus provides meaningful security guarantees, even in the face of low-level attackers. We also model a translation scheme from an enclave-agnostic calculus to an enclave-aware calculus and show that the scheme ensures that enclaves are correctly placed, so that a translation of a well-typed program in the enclave-agnostic calculus results in a well-typed program in the enclave-aware calculus.
+            </div> 
+        </div>
+        <div class="project-images">
+        </div>
+    </div>
+    <div class="project-item">
+        <div class="project-info">
+            <div class="project-icon">
+                    <img src="assets/img/spy.png"
+                        width="64px"
+                        height="64px"/>
+            </div>
+            <div class="project-content">
+                <h3>Accelerating Good (and Evil): Using Accelerometer Data to Catch Spam (and Spy on People) </h3>
+                <ul class="list-inline">
+                    <li><h4><a href="https://ezig.github.io/acceleratinggood.pdf">Read the Paper</a></h4></li>
+                    <li><h4><a href="https://github.com/ankitvgupta/reCAPTCHA-mobile">GitHub</a></h4></li>
+                </ul>
+                <p>A final project for System Security at Harvard.</p><p>To prevent automated systems from accessing certain webpages, website developers often wish to verify that a user is a human. This generally involves asking a user to perform tasks that are relatively easy for humans but difficult for automated systems. One of the most popular such methods is CAPTCHA. However, these tasks can still be difficult or unpleasant to complete for humans. In general, they can reduce the quality of user experience, which may make a user frustrated when interacting with a system, particularly for those with disabilities.</p><p>To address these issues, we explore a replacement for CAPTCHA that uses a mobile client’s accelerometer data to determine whether the client is an automated system. We also examine the privacy implications of websites clandestinely collecting accelerometer data.</p>
+            </div> 
+        </div>
+        <div class="project-images">
+                <img src="assets/img/captcha.png" 
+                    class="image-responsive"
+                    width="300px"
+                    height="208px"/>
+        </div>
+    </div>
+    <div class="project-item">
+        <div class="project-info">
+            <div class="project-icon">
+                    <img src="assets/img/amplifyicon.png"
+                        width="64px"
+                        height="64px"/>
+            </div>
+            <div class="project-content">
+                <h3>Amplify </h3>
+                <ul class="list-inline">
+                    <li><h4><a href="https://github.com/ezig/amplify/releases/tag/v1.0">Download</a></h4></li>
+                    <li><h4><a href="https://github.com/ezig/amplify">GitHub</a></h4></li>
+                </ul>
+                <p>Amplify is a convenient menu bar app to simplify the way you use Spotify. Amplify makes it easy to check the current track, adjust Spotify volume, and control playback without interrupting what you're working on. Amplify has been downloaded more than 75,000 times, peaking at the #4 free music app and the #53 free app overall on the Mac App Store.</p><p>Amplify is written in Objective-C and uses the <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ScriptingBridgeConcepts/Introduction/Introduction.html"> Scripting Bridge Framework</a> to send Apple Script commands to the Spotify client, and the <a href="https://developer.apple.com/library/prerelease/mac/documentation/Cocoa/Reference/Foundation/Classes/NSDistributedNotificationCenter_Class/index.html"> Distributed Notification Center</a> to detect when the Spotify track changes. 
+            </div> 
+        </div>
+        <div class="project-images">
+                <img src="assets/img/amplify.png" 
+                    class="image-responsive"
+                    width="380px"
+                    height="193px"/>
+        </div>
+    </div>
+    <div class="project-item">
+        <div class="project-info">
+            <div class="project-icon">
+                    <img src="assets/img/bblogo.jpg"
+                        width="64px"
+                        height="64px"/>
+            </div>
+            <div class="project-content">
+                <h3>Budget Butler </h3>
+                <ul class="list-inline">
+                    <li><h4><a href="https://github.com/ezig/cs50-final">GitHub</a></h4></li>
+                </ul>
+                <p>A polite app to streamline your budget management experience. Budget Butler is designed to simplify keeping track of receipts and spending by making it easy to add new receipts as you get them and to view past spending in table or chart form.</p><p>Adding a picture of a new receipt automatically fills in the total amount using optical character recognition (OCR) powered by <a href="https://code.google.com/p/tesseract-ocr/">Tesseract</a>. Receipt pictures and information are then saved using Core Data. Budget Butler will even autocomplete payee names and expense categories based on previous saved purchases. In addition to the table-style log, the summary view generates charts using <a href="https://github.com/core-plot/core-plot">Core Plot</a> to break down spending by category.</p>
+            </div> 
+        </div>
+        <div class="project-images">
+                <img src="assets/img/bb1.png" 
+                    class="image-responsive"
+                    width="180px"
+                    height="334px"/>
+                <img src="assets/img/bb2.png" 
+                    class="image-responsive"
+                    width="180px"
+                    height="334px"/>
+        </div>
+    </div>
+    <div class="project-item">
+        <div class="project-info">
+            <div class="project-icon">
+                    <img src="assets/img/clojure.png"
+                        width="64px"
+                        height="64px"/>
+            </div>
+            <div class="project-content">
+                <h3>NPuzzles </h3>
+                <ul class="list-inline">
+                    <li><h4><a href="https://github.com/ezig/npuzzles">GitHub</a></h4></li>
+                    <li><h4><a href="https://ezig.github.io/npuzzles.pdf">Writeup of Results</a></h4></li>
+                </ul>
+                <p>A sliding tile puzzle solver written in Clojure as a final project for CS51: Abstraction and Design. The goal of the project was to compare the effectiveness of a standard A* strategy with a genetic algorithm. After running tests on both square and non-square puzzles, we found our A* implementation about 30 times faster than the genetic algorithm. We also compared the effectiveness of different heuristic functions for maximizing the  speed of both algorithms, as well as for increasing the accuracy of the genetic algorithm.  Ultimately, we concluded that a genetic algorithm was not well suited for a problem of this sort which involves planning and where partial solutions are not useful.</p>
+            </div> 
+        </div>
+        <div class="project-images">
+                <img src="assets/img/scrambledcow.jpg" 
+                    class="image-responsive"
+                    width="175px"
+                    height="141px"/>
+                <img src="assets/img/solvedcow.png" 
+                    class="image-responsive"
+                    width="175px"
+                    height="141px"/>
+        </div>
+    </div>
+    <div class="project-item">
+        <div class="project-info">
+            <div class="project-icon">
+                    <img src="assets/img/shield.jpg"
+                        width="60px"
+                        height="60px"/>
+            </div>
+            <div class="project-content">
+                <h3>Strategy Game Movement </h3>
+                <ul class="list-inline">
+                    <li><h4><a href="https://ezig.github.io/strategy-game">Live Demo</a></h4></li>
+                    <li><h4><a href="https://github.com/ezig/strategy-game">GitHub</a></h4></li>
+                </ul>
+                <p>An experiment with path-finding similar based on the style of movement found in turn-based strategy games like Fire Emblem and Advance Wars. Determines valid movement ranges and paths based on a character's movement range and finds paths to tiles using a modified depth-limited breadth-first search. Built using <a href="http://phaser.io/">Phaser.js</a> to draw grid and animate movement.</p><p>To try out the demo, click on and move the pink or the green friendly sprites to a valid (blue-highlighted) tile in movement range. Once you've moved both friendly sprites, the red enemy will make a move. The red-highlighted squares indicate spaces within the sprite's "attack" range but outside of its move range.</p>
+            </div> 
+        </div>
+        <div class="project-images">
+                <img src="assets/img/strategy.png" 
+                    class="image-responsive"
+                    width="320px"
+                    height="260px"/>
+        </div>
+    </div>
+    <div class="project-item">
+        <div class="project-info">
+            <div class="project-icon">
+                    <img src="assets/img/tile.png"
+                        width="64px"
+                        height="64px"/>
+            </div>
+            <div class="project-content">
+                <h3>Flip </h3>
+                <ul class="list-inline">
+                    <li><h4><a href="https://ezig.github.io/flip">Play Game</a></h4></li>
+                    <li><h4><a href="https://github.com/ezig/flip">GitHub</a></h4></li>
+                </ul>
+                <p>A game about tiles. Flip is based on a simple goal (turn all of the red tiles white) and a simple mechanic (flipping over a tile also flips the adjacent tiles). Built using <a href="http://phaser.io/">Phaser.js</a>.</p><p>There are currently two different modes:<ul><li>Classic: randomly generate square levels from 3x3 up to 5x5</li><li>Adventure: handmade levels of varying shape (shown on the right)</li></ul></p>
+            </div> 
+        </div>
+        <div class="project-images">
+                <img src="assets/img/flip.png" 
+                    class="image-responsive"
+                    width="275px"
+                    height="275px"/>
+        </div>
+    </div>
+</div></body>
 </html>
