@@ -58,8 +58,9 @@
         -ms-flex-pack: justify;
             justify-content: space-between; }
     .education .education-section img {
-      width: 48px;
-      height: 56px; }
+      /*width: 48px;*/
+      /*height: 56px; */
+    }
   .education .education-description {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 55%;
